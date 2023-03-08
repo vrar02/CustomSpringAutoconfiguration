@@ -18,6 +18,7 @@ public class HelloServiceTestApplication {
 		HelloService helloService =(HelloService) context.getBean("helloService");
 		helloService.m1();
 
+
 		//Here the helloSerive is automatically configured by the spring by just adding the
 		//the following dependency which has the autoconfiguration code
 		//which contains default implementation for HelloService interface...
